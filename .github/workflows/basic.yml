@@ -6,7 +6,7 @@ on:
 
 jobs:
     basic:
-     runs-on: ["wsl.linux"]
+     runs-on: self-hosted
      steps:
         - name: Print a statement
           run: echo "Basic GHA pipeline successfull"
